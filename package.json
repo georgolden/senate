@@ -34,5 +34,8 @@
     "metatests": "^0.8.2",
     "prettier": "^2.7.1",
     "typescript": "^4.7.4"
-  }
+  },
+  "workspaces": [
+    "./src/domain/*"
+  ]
 }
